@@ -4,7 +4,7 @@
 
 import string
 
-letters = list('abcdefghijklmnopqrstuvwxyz')
+letters = list(string.lowercase)
 for line in open('input.file'):
     for letter in list(line.strip()):
         if letter in letters:
